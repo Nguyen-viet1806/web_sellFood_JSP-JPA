@@ -1,0 +1,325 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis:400,600" rel="stylesheet';
+
+body {
+	 font-family: "Dosis", sans-serif;
+background:#ebebeb;
+	 
+}
+#sidebar .sidebar-header{
+	background: linear-gradient(to bottom, #ff9966 0%, #ffffff 100%);
+	padding: 20px;
+}
+.sidebar-header {
+    text-align: center;
+    height: 130px;
+    color: black;
+
+}
+.sidebar-header h4{
+    padding-top:15px; 
+
+}
+
+#sidebar {
+	background:white!important;
+    min-width: 200px;
+    position: fixed;
+    height: 100%;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+#sidebar a{
+	margin-top: 20px;
+	text-align: center;
+}
+.nav{
+	margin-left:200px;
+	color:	white;
+	width: 1090px;
+	height: 60px;
+	background: linear-gradient(to right, #ff966c 0%, #ff76ac 100%);
+}
+
+.footer{
+	background:white;
+	height:50px;
+	margin-left:200px;
+	width: 1090px;
+	text-align: center;
+	box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+.nav ul{
+	display: flex;
+}
+.nav ul li{
+	list-style: none;
+	padding: 15px 40px 0 40px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.nav ul li a:hover{
+	color: #03a9f4;
+}
+.avatar {
+	margin-top:5px;
+	margin-left:340px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav p {
+	line-height: 60px;
+	margin-left: 5px;
+}
+.page{
+	background:#ebebeb;
+	height:1300px;
+	margin-left:200px;
+	width: 1000px;
+}
+.form-product{
+	background: white;
+	width:1060px;
+	height:400px;
+	margin: 0px 15px 0 15px;
+	box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+.page>.form-product>.formP{
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+.page>.form-product>.formP>.form-group input,select{
+	width: 280px!important;
+}
+.page>.form-product>.formP>.form-group{
+	padding: 10px 0 0 15px;
+}
+.page>.form-product>.formP>.form-control{
+	margin: 42px 0 15px 15px;
+}
+.page>.form-product>.formP button{
+	margin-left: 20px;
+	margin-top: 42px;
+}
+.page>.form-product>.formP>.btn-success{
+	background: linear-gradient(to right, #00f7a7 0%, #04f5ed 100%)!important;
+	border: none;
+}
+.page>.form-product>.formP>.btn-success:hover{
+	background: linear-gradient(to right, #1de5e2 0%, #b588f7 100%)!important;
+	
+}
+.page>.form-product>.formP>.btn-light{
+
+	background: linear-gradient(to right, #facd68 0%, #fc76b3 100%)!important;
+	border: none;
+}
+.page>.form-product>.formP>.btn-light:hover{
+	
+		background: linear-gradient(to right, #ffcb52 0%, #ff7b02 100%)!important;
+}
+
+.page>.table-product{
+	background: white;
+	width:1060px;
+	height:800px;
+	margin: 15px 15px 0 15px;
+	box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+
+
+
+a {
+  color: inherit;
+}
+
+
+.menu {
+  filter: url("#shadowed-goo");
+
+
+}
+
+.menu-item, .menu-open-button {
+  background: linear-gradient(to right, #1de5e2 0%, #b588f7 100%);
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
+  position: absolute;
+  top: 10px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  transform: translate3d(0, 0, 0);
+  transition: transform ease-out 200ms;
+  
+}
+
+.menu-open {
+  display: none;
+}
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -12.5px;
+  margin-top: -1.5px;
+  transition: transform 200ms;
+}
+
+.hamburger-1 {
+  transform: translate3d(0, -8px, 0);
+}
+
+.hamburger-2 {
+  transform: translate3d(0, 0, 0);
+}
+
+.hamburger-3 {
+  transform: translate3d(0, 8px, 0);
+}
+
+.menu-open:checked + .menu-open-button .hamburger-1 {
+  transform: translate3d(0, 0, 0) rotate(45deg);
+}
+.menu-open:checked + .menu-open-button .hamburger-2 {
+  transform: translate3d(0, 0, 0) scale(0.1, 1);
+}
+.menu-open:checked + .menu-open-button .hamburger-3 {
+  transform: translate3d(0, 0, 0) rotate(-45deg);
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  margin-left: -190px;
+  padding-top: 20px;
+  padding-left: 190px;
+  width: 380px;
+  height: 250px;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: left;
+  z-index: 1000;
+}
+
+.menu-item:hover {
+  background: white;
+  color: linear-gradient(to right, #1de5e2 0%, #b588f7 100%)!important;
+}
+.menu-item:nth-child(3) {
+  transition-duration: 70ms;
+}
+.menu-item:nth-child(4) {
+  transition-duration: 130ms;
+}
+.menu-item:nth-child(5) {
+  transition-duration: 190ms;
+}
+.menu-item:nth-child(6) {
+  transition-duration: 250ms;
+}
+.menu-item:nth-child(7) {
+  transition-duration: 310ms;
+}
+
+.menu-open-button {
+  z-index: 2;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 400ms;
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer;
+}
+
+.menu-open-button:hover {
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+
+.menu-open:checked + .menu-open-button {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+}
+
+.menu-open:checked ~ .menu-item {
+  transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+}
+.menu-open:checked ~ .menu-item:nth-child(3) {
+  transition-duration: 160ms;
+  transform: translate3d(114.42548px, 11.48084px, 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(4) {
+  transition-duration: 240ms;
+  transform: translate3d(77.18543px, 85.2491px, 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(5) {
+  transition-duration: 320ms;
+  transform: translate3d(0.09158px, 114.99996px, 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(6) {
+  transition-duration: 400ms;
+  transform: translate3d(-77.04956px, 85.37192px, 0);
+}
+.menu-open:checked ~ .menu-item:nth-child(7) {
+  transition-duration: 480ms;
+  transform: translate3d(-114.40705px, 11.66307px, 0);
+}
+.pagination{
+	margin-left: 450px!important;
+	
+}
+.table{
+	border-bottom: 1px solid #facd68;
+	
+}
+.table-bill{
+	float: left;
+	margin-left: 20px;
+}
+.delete{
+	background: #ff76ac;
+	border: none;
+}
+.alert {
+  padding: 20px;
+
+  color: white;
+  
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.bieudo{
+	margin-top:18px;
+	margin-left:100px;
+	width: 933px;
+	height: 400px;
+	background: white;
+	
+}
+.bieudo h3{
+	text-align: center;
+	line-height: 400px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="Vietnqph11698_Ass_V1" transaction-type="RESOURCE_LOCAL">
+		<class>vietnqv.server.model.TblAccount</class>
+		<class>vietnqv.server.model.TblBill</class>
+		<class>vietnqv.server.model.TblBillDetail</class>
+		<class>vietnqv.server.model.TblCart</class>
+		<class>vietnqv.server.model.TblCartDetail</class>
+		<class>vietnqv.server.model.TblCategory</class>
+		<class>vietnqv.server.model.TblProduct</class>
+		<class>vietnqv.server.model.TblRole</class>
+		<class>vietnqv.server.model.TblStatus</class>
+		<class>vietnqv.server.model.TblUser</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=Vietnqph11698_Ass"/>
+			<property name="javax.persistence.jdbc.user" value="viet"/>
+			<property name="javax.persistence.jdbc.password" value="vietnqvvp"/>
+			<property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+		</properties>
+	</persistence-unit>
+</persistence>
